@@ -2,9 +2,9 @@
 
 
 // データベース接続
-$dsn="mysql:dbname=tb220230db;host=localhost";
-$user="tb-220230";
-$password="mShhSzhf4L";
+$dsn="mysql:dbname=******;host=******";
+$user="******";
+$password="******";
 
 
 $pdo=new PDO($dsn,$user,$password,array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
